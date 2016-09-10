@@ -11,19 +11,9 @@
 # initialize a wxphp terminal session.
 #
 
-CURRENT_DIR=`pwd`
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# Create wxphp launcher
-echo "#!/bin/bash" > wxphp
-
-echo "${CURRENT_DIR}/php/bin/php \
+${CURRENT_DIR}/php/bin/php \
 -d extension=${CURRENT_DIR}/php/lib/php/extensions/no-debug-zts-20121212/wxwidgets.so \
 -d zend_extension=${CURRENT_DIR}/php/lib/php/extensions/no-debug-zts-20121212/opcache.so \
-\$@" >> wxphp
-
-chmod 0744 wxphp
-
-# Launch terminal and set PATH
-osascript -e 'tell app "Terminal"
-    do script "export PATH='$PATH:$CURRENT_DIR'; clear; cat '$CURRENT_DIR/shell_header.txt'"
-end tell'
+${CURRENT_DIR}/../src/index.php

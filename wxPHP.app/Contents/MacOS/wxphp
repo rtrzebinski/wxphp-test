@@ -1,2 +1,0 @@
-#!/bin/bash
-/Users/robert/projects/wxphp/wxPHP.app/Contents/MacOS/php/bin/php -d extension=/Users/robert/projects/wxphp/wxPHP.app/Contents/MacOS/php/lib/php/extensions/no-debug-zts-20121212/wxwidgets.so -d zend_extension=/Users/robert/projects/wxphp/wxPHP.app/Contents/MacOS/php/lib/php/extensions/no-debug-zts-20121212/opcache.so $@
