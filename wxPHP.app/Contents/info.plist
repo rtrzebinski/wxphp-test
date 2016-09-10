@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.wxphp.wxphp</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>de</string>
+		<string>en</string>
+		<string>fr</string>
+		<string>it</string>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>launcher</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.icns</string>
+	<key>CFBundleName</key>
+	<string>wxPHP</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0.0.2</string>
+	<key>CFBundleGetInfoString</key>
+	<string>wxPHP version 3.0.0.2, PHP License</string>
+	<key>CFBundleLongVersionString</key>
+	<string>3.0.0.2 stable 2014/06/17</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Developed by the wxPHP Team</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
+	<key>CSResourcesFileMapped</key>
+	<false/>
+</dict>
+</plist>
